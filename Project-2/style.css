@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+body{
+background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+background-size: cover;
+}
+
+.container{
+  background-color:rgba(47, 49, 77, 0.7);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding:1rem 3rem;
+  background-size: cover;
+}
+
+.navbar>div{
+  display: inline-block;
+}
+.logo{
+  width:10rem;
+  padding:0 1rem;
+}
+
+.navbar>div:nth-child(2){
+  position: relative;
+  width: 66vw;
+  text-align: center;
+  left: -2rem;
+  top: -1.5rem;
+}
+
+.list-item{
+  display:inline-block;
+  padding: 0 3rem;
+  font-size:1.2rem;
+  color:#f5d742;
+}
+
+.button-small{
+  width: 8.5rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color:#e85f5f;
+  color:#ffffff;
+  border:none;
+  position: relative;
+  top:-1rem;
+  font-weight: bold;
+}
+
+
+.hero-heading{
+  font-size: 6.4rem;
+  color: #f5d742;
+  width: 90vw;
+  text-align: center;
+  line-height: 1.1;
+  font-family: "Montserrat";
+  padding: 0px 8rem;
+  position: relative;
+  top: 1rem;
+}
+
+.button-large{
+  background-color: #ed837e;
+  color: #ffffff;
+  width: 24rem;
+  height: 3.5rem;
+  font-size: 2.1rem;
+  border: none;
+  position: relative;
+  left: 27rem;
+  top: 3.5rem;
+}
+
+.bottom>div>img{
+  position:relative;
+  top:4rem;
+  left:70rem;
+  width:7rem;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #000000;
+    color:#ffffff;
+    padding: 1rem 4rem;
+}
+.navbar>div{
+    display:inline-block;
+}
+.hero{
+    background-image: url(./assets/bg.png);
+    background-size: 100vw 90vh;
+    height: 89vh;
+    background-repeat: no-repeat;
+    font-family:'Montserrat', sans-serif;
+}
+
+.logo{
+    width:6rem;
+}
+.list{
+    position: relative;
+    top: -0.6rem;
+}
+.list-item{
+    display:inline-block;
+    padding-left:5rem;
+}
+.line{
+    border: none;
+    border-right: 0.1rem solid #ffffff;
+    height: 2rem;
+    width: 2.5rem;
+}
+.hero-heading{
+    font-size: 4rem;
+    padding: 0px 16rem;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 7.4rem;
+    left:-2.5rem;
+    line-height: 0.9;
+}
+.button-small{
+    background-color: #C545C9;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    position: relative;
+    left: 20rem;
+    top:-0.5rem;
+    border:none;
+}
+.hero-description{
+    padding: 0px 25rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: relative;
+    top: 7.5rem;
+    text-align: center;
+}
+.button-large{
+    background-color: #C545C9;
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    position:relative;
+    top:10rem;
+    left:33rem;
+}

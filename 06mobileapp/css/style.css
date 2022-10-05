@@ -115,6 +115,9 @@ nav{
   .col-1 p{
     font-size:1rem;
   }
+  .container{
+    padding-top:2rem;
+  }
   .col-1 h1{
     font-size: 1.8rem;
   }

@@ -5,7 +5,7 @@
 body{
   background-color: #d5d5d5;
   height: 100vh;
-  font-family: 'Roberto',sans-serif;
+  font-family: 'Roborto',sans-serif;
 }
 
 main{
@@ -105,11 +105,14 @@ input{
     flex-direction: column;
   }
   .btn{
-    
     width:33rem
   }
 
-  .btn-facebook +.btn-twitter{
+  .btn-facebook{
+    margin-left: 5.2rem;
+  } 
+  
+  .btn-twitter{
     margin-left: 5.2rem;
   }
   
@@ -148,7 +151,7 @@ input{
   .btn-facebook{
     margin-left: -4.8rem;
   }
-  ..btn-twitter{
+  .btn-twitter{
   margin-left:-4.8rem;
   }
  

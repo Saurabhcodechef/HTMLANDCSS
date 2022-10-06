@@ -119,7 +119,8 @@ input{
     align-items: center;
   }
   section {
-    margin-left: 5rem;
+    margin-top:2rem
+    margin-left: 3rem;
   }
 
   input{
@@ -127,7 +128,7 @@ input{
   }
   .form-section{
     width:100%;
-    margin: 0 0 0 5rem;
+    margin: 1rem 0 0 3rem;
   }
   .form{
     display: flex;

@@ -145,8 +145,11 @@ input{
   .divider{
   margin-right:5rem;
   }
-  .btn-facebook +.btn-twitter{
+  .btn-facebook{
     margin-left: -4.8rem;
+  }
+  ..btn-twitter{
+  margin-left:-4.8rem;
   }
  
   .flex-column{

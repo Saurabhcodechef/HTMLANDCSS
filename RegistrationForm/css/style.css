@@ -120,7 +120,7 @@ input{
   }
   section {
     margin-top:2rem
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
 
   input{
@@ -128,7 +128,7 @@ input{
   }
   .form-section{
     width:100%;
-    margin: 1rem 0 0 3rem;
+    margin: 1rem 0 0 1rem;
   }
   .form{
     display: flex;
